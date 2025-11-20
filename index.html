@@ -28,9 +28,14 @@
                     },
                     colors: {
                         brand: {
-                            DEFAULT: '#2563eb',
-                            dark: '#1e40af',
-                            light: '#3b82f6'
+                            DEFAULT: '#22c55e',
+                            dark: '#16a34a',
+                            light: '#4ade80'
+                        },
+                        accent: {
+                            DEFAULT: '#eab308',
+                            dark: '#ca8a04',
+                            light: '#facc15'
                         }
                     }
                 }
@@ -72,14 +77,14 @@
     </header>
 
     <main id="top">
-        <section class="bg-gradient-to-br from-indigo-500 via-indigo-600 to-purple-600 py-24 text-white">
+        <section class="bg-gradient-to-br from-green-600 via-green-500 to-yellow-500 py-24 text-white">
             <div class="mx-auto max-w-4xl px-6 text-center lg:px-8">
-                <p class="text-sm uppercase tracking-[0.35em] text-indigo-200">🕵️ Code Quality Investigation Tool</p>
+                <p class="text-sm uppercase tracking-[0.35em] text-green-100">🕵️ Code Quality Investigation Tool</p>
                 <h1 class="mt-4 text-4xl font-bold leading-tight sm:text-5xl">Code Smell Detective</h1>
-                <p class="mt-6 text-lg text-indigo-100">Uncover hidden code smells in your Python codebase with our powerful static analysis tool.</p>
-                <p class="mt-4 text-base text-indigo-100/90">Download the detective toolkit and start investigating your code quality today.</p>
+                <p class="mt-6 text-lg text-green-50">Uncover hidden code smells in your Python codebase with our powerful static analysis tool.</p>
+                <p class="mt-4 text-base text-green-50/90">Download the detective toolkit and start investigating your code quality today.</p>
                 <div class="mt-8">
-                    <a href="https://github.com/code-smell-detective/code-smell-detective/releases" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center rounded-xl bg-white px-6 py-3 text-base font-semibold text-indigo-700 shadow-lg shadow-indigo-900/20 transition hover:-translate-y-1 hover:bg-indigo-50">
+                    <a href="https://github.com/code-smell-detective/code-smell-detective/releases" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center rounded-xl bg-white px-6 py-3 text-base font-semibold text-green-700 shadow-lg shadow-green-900/20 transition hover:-translate-y-1 hover:bg-green-50">
                         Download Latest Release
                     </a>
                 </div>
@@ -101,9 +106,9 @@
 
         <section class="bg-white py-20">
             <div class="mx-auto max-w-4xl px-6 lg:px-8">
-                <blockquote class="rounded-2xl border border-indigo-100 bg-indigo-50/70 p-10 shadow-sm sm:p-12" data-animate>
+                <blockquote class="rounded-2xl border border-green-100 bg-green-50/70 p-10 shadow-sm sm:p-12" data-animate>
                     <p class="text-xl font-semibold text-slate-800">"Code Smell Detective helped us identify critical quality issues we didn't even know existed. The health score feature gives us a clear picture of our codebase quality at a glance."</p>
-                    <cite class="mt-6 block text-base font-semibold text-indigo-800">— Python Developer</cite>
+                    <cite class="mt-6 block text-base font-semibold text-green-800">— Python Developer</cite>
                 </blockquote>
             </div>
         </section>
@@ -111,7 +116,7 @@
         <section id="about" class="bg-white py-24">
             <div class="mx-auto flex max-w-6xl flex-col gap-14 px-6 lg:flex-row lg:items-center lg:px-8">
                 <div class="flex flex-1 justify-center" data-animate>
-                    <div class="flex h-64 w-64 items-center justify-center rounded-full bg-gradient-to-br from-brand to-cyan-400 shadow-xl overflow-hidden">
+                    <div class="flex h-64 w-64 items-center justify-center rounded-full bg-gradient-to-br from-brand to-accent shadow-xl overflow-hidden">
                         <img src="https://github.com/user-attachments/assets/c7704d08-beb5-4550-b15e-f6605955467c" alt="Code Smell Detective" class="h-full w-full object-cover rounded-full">
                     </div>
                 </div>
@@ -139,37 +144,37 @@
                     <p class="mt-4 text-base text-slate-600">Our detective toolkit is equipped to uncover these common code smells in your Python codebase.</p>
                 </div>
                 <div class="mt-14 grid gap-8 md:grid-cols-2 xl:grid-cols-3">
-                    <div class="flex flex-col rounded-2xl border border-white bg-white/80 p-8 shadow-lg shadow-indigo-200/40 ring-1 ring-indigo-100 transition hover:-translate-y-1 hover:shadow-xl" data-animate>
+                    <div class="flex flex-col rounded-2xl border border-white bg-white/80 p-8 shadow-lg shadow-green-200/40 ring-1 ring-green-100 transition hover:-translate-y-1 hover:shadow-xl" data-animate>
                         <div class="text-4xl">📏</div>
                         <h3 class="mt-6 text-2xl font-semibold text-slate-900">Long Method</h3>
                         <p class="mt-3 text-sm font-semibold uppercase tracking-wide text-brand">Methods that do too much.</p>
                         <p class="mt-4 text-slate-600">Detects methods that exceed configurable length thresholds, making them hard to understand and maintain.</p>
                     </div>
-                    <div class="flex flex-col rounded-2xl border border-white bg-white/80 p-8 shadow-lg shadow-indigo-200/40 ring-1 ring-indigo-100 transition hover:-translate-y-1 hover:shadow-xl" data-animate>
+                    <div class="flex flex-col rounded-2xl border border-white bg-white/80 p-8 shadow-lg shadow-green-200/40 ring-1 ring-green-100 transition hover:-translate-y-1 hover:shadow-xl" data-animate>
                         <div class="text-4xl">📋</div>
                         <h3 class="mt-6 text-2xl font-semibold text-slate-900">Long Parameter List</h3>
                         <p class="mt-3 text-sm font-semibold uppercase tracking-wide text-brand">Too many arguments.</p>
                         <p class="mt-4 text-slate-600">Identifies functions with excessive parameters, indicating potential design issues that need refactoring.</p>
                     </div>
-                    <div class="flex flex-col rounded-2xl border border-white bg-white/80 p-8 shadow-lg shadow-indigo-200/40 ring-1 ring-indigo-100 transition hover:-translate-y-1 hover:shadow-xl" data-animate>
+                    <div class="flex flex-col rounded-2xl border border-white bg-white/80 p-8 shadow-lg shadow-green-200/40 ring-1 ring-green-100 transition hover:-translate-y-1 hover:shadow-xl" data-animate>
                         <div class="text-4xl">🧩</div>
                         <h3 class="mt-6 text-2xl font-semibold text-slate-900">Complex Conditional</h3>
                         <p class="mt-3 text-sm font-semibold uppercase tracking-wide text-brand">Overly complicated logic.</p>
                         <p class="mt-4 text-slate-600">Finds conditionals that are too complex, making code difficult to test and understand.</p>
                     </div>
-                    <div class="flex flex-col rounded-2xl border border-white bg-white/80 p-8 shadow-lg shadow-indigo-200/40 ring-1 ring-indigo-100 transition hover:-translate-y-1 hover:shadow-xl" data-animate>
+                    <div class="flex flex-col rounded-2xl border border-white bg-white/80 p-8 shadow-lg shadow-green-200/40 ring-1 ring-green-100 transition hover:-translate-y-1 hover:shadow-xl" data-animate>
                         <div class="text-4xl">🏢</div>
                         <h3 class="mt-6 text-2xl font-semibold text-slate-900">Large Class</h3>
                         <p class="mt-3 text-sm font-semibold uppercase tracking-wide text-brand">Classes with too many responsibilities.</p>
                         <p class="mt-4 text-slate-600">Spots classes that have grown too large, violating the Single Responsibility Principle.</p>
                     </div>
-                    <div class="flex flex-col rounded-2xl border border-white bg-white/80 p-8 shadow-lg shadow-indigo-200/40 ring-1 ring-indigo-100 transition hover:-translate-y-1 hover:shadow-xl" data-animate>
+                    <div class="flex flex-col rounded-2xl border border-white bg-white/80 p-8 shadow-lg shadow-green-200/40 ring-1 ring-green-100 transition hover:-translate-y-1 hover:shadow-xl" data-animate>
                         <div class="text-4xl">🔄</div>
                         <h3 class="mt-6 text-2xl font-semibold text-slate-900">Duplicated Code</h3>
                         <p class="mt-3 text-sm font-semibold uppercase tracking-wide text-brand">Copy-paste code patterns.</p>
                         <p class="mt-4 text-slate-600">Uncovers code duplication that should be refactored into reusable functions or classes.</p>
                     </div>
-                    <div class="flex flex-col rounded-2xl border border-white bg-white/80 p-8 shadow-lg shadow-indigo-200/40 ring-1 ring-indigo-100 transition hover:-translate-y-1 hover:shadow-xl" data-animate>
+                    <div class="flex flex-col rounded-2xl border border-white bg-white/80 p-8 shadow-lg shadow-green-200/40 ring-1 ring-green-100 transition hover:-translate-y-1 hover:shadow-xl" data-animate>
                         <div class="text-4xl">📊</div>
                         <h3 class="mt-6 text-2xl font-semibold text-slate-900">Health Score</h3>
                         <p class="mt-3 text-sm font-semibold uppercase tracking-wide text-brand">Overall code quality metric.</p>
@@ -177,7 +182,7 @@
                     </div>
                 </div>
                 <div class="mt-12 text-center" data-animate>
-                    <a href="https://github.com/code-smell-detective/code-smell-detective/releases" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center rounded-xl bg-brand px-6 py-3 text-base font-semibold text-white shadow-lg shadow-brand/20 transition hover:-translate-y-1 hover:bg-brand-dark">
+                    <a href="https://github.com/code-smell-detective/code-smell-detective/releases" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center rounded-xl bg-brand px-6 py-3 text-base font-semibold text-white shadow-lg shadow-green-600/20 transition hover:-translate-y-1 hover:bg-brand-dark">
                         Download the Detective Toolkit
                     </a>
                 </div>
@@ -218,27 +223,27 @@
                 </div>
                 <div class="mt-14 grid gap-6 md:grid-cols-2 xl:grid-cols-3">
                     <div class="flex gap-4 rounded-xl border border-white bg-white p-6 shadow-sm" data-animate>
-                        <span class="flex h-10 w-10 items-center justify-center rounded-full bg-emerald-100 text-lg font-semibold text-emerald-600">✓</span>
+                        <span class="flex h-10 w-10 items-center justify-center rounded-full bg-green-100 text-lg font-semibold text-green-600">✓</span>
                         <p class="text-slate-700"><strong>AST-Based Analysis</strong> - Deep code understanding, not just text matching</p>
                     </div>
                     <div class="flex gap-4 rounded-xl border border-white bg-white p-6 shadow-sm" data-animate>
-                        <span class="flex h-10 w-10 items-center justify-center rounded-full bg-emerald-100 text-lg font-semibold text-emerald-600">✓</span>
+                        <span class="flex h-10 w-10 items-center justify-center rounded-full bg-green-100 text-lg font-semibold text-green-600">✓</span>
                         <p class="text-slate-700"><strong>Industry Standards</strong> - Follows established code smell specifications</p>
                     </div>
                     <div class="flex gap-4 rounded-xl border border-white bg-white p-6 shadow-sm" data-animate>
-                        <span class="flex h-10 w-10 items-center justify-center rounded-full bg-emerald-100 text-lg font-semibold text-emerald-600">✓</span>
+                        <span class="flex h-10 w-10 items-center justify-center rounded-full bg-green-100 text-lg font-semibold text-green-600">✓</span>
                         <p class="text-slate-700"><strong>Configurable</strong> - Customize thresholds to match your team's standards</p>
                     </div>
                     <div class="flex gap-4 rounded-xl border border-white bg-white p-6 shadow-sm" data-animate>
-                        <span class="flex h-10 w-10 items-center justify-center rounded-full bg-emerald-100 text-lg font-semibold text-emerald-600">✓</span>
+                        <span class="flex h-10 w-10 items-center justify-center rounded-full bg-green-100 text-lg font-semibold text-green-600">✓</span>
                         <p class="text-slate-700"><strong>CI/CD Ready</strong> - JSON output integrates with your automation pipelines</p>
                     </div>
                     <div class="flex gap-4 rounded-xl border border-white bg-white p-6 shadow-sm" data-animate>
-                        <span class="flex h-10 w-10 items-center justify-center rounded-full bg-emerald-100 text-lg font-semibold text-emerald-600">✓</span>
+                        <span class="flex h-10 w-10 items-center justify-center rounded-full bg-green-100 text-lg font-semibold text-green-600">✓</span>
                         <p class="text-slate-700"><strong>Open Source</strong> - Transparent, community-driven development</p>
                     </div>
                     <div class="flex gap-4 rounded-xl border border-white bg-white p-6 shadow-sm" data-animate>
-                        <span class="flex h-10 w-10 items-center justify-center rounded-full bg-emerald-100 text-lg font-semibold text-emerald-600">✓</span>
+                        <span class="flex h-10 w-10 items-center justify-center rounded-full bg-green-100 text-lg font-semibold text-green-600">✓</span>
                         <p class="text-slate-700"><strong>Easy to Use</strong> - Simple CLI commands, no complex setup required</p>
                     </div>
                 </div>
@@ -277,21 +282,21 @@
             <div class="mx-auto max-w-4xl px-6 text-center lg:px-8">
                 <h2 class="text-3xl font-semibold tracking-tight text-slate-900 sm:text-4xl" data-animate>Download the Detective, and finally get…</h2>
                 <ul class="mt-10 space-y-4 text-left" data-animate>
-                    <li class="rounded-lg border border-emerald-200 bg-white p-5 text-lg text-slate-700 shadow-sm">Clear visibility into code quality issues across your entire Python codebase</li>
-                    <li class="rounded-lg border border-emerald-200 bg-white p-5 text-lg text-slate-700 shadow-sm">Actionable insights with severity assessments to prioritize your refactoring efforts</li>
-                    <li class="rounded-lg border border-emerald-200 bg-white p-5 text-lg text-slate-700 shadow-sm">A health score that gives you a quick overview of your codebase quality at a glance</li>
-                    <li class="rounded-lg border border-emerald-200 bg-white p-5 text-lg text-slate-700 shadow-sm">JSON reports that integrate seamlessly with your CI/CD pipelines and tooling</li>
-                    <li class="rounded-lg border border-emerald-200 bg-white p-5 text-lg text-slate-700 shadow-sm">Time saved by automating code smell detection instead of manual code reviews</li>
+                    <li class="rounded-lg border border-green-200 bg-white p-5 text-lg text-slate-700 shadow-sm">Clear visibility into code quality issues across your entire Python codebase</li>
+                    <li class="rounded-lg border border-green-200 bg-white p-5 text-lg text-slate-700 shadow-sm">Actionable insights with severity assessments to prioritize your refactoring efforts</li>
+                    <li class="rounded-lg border border-green-200 bg-white p-5 text-lg text-slate-700 shadow-sm">A health score that gives you a quick overview of your codebase quality at a glance</li>
+                    <li class="rounded-lg border border-green-200 bg-white p-5 text-lg text-slate-700 shadow-sm">JSON reports that integrate seamlessly with your CI/CD pipelines and tooling</li>
+                    <li class="rounded-lg border border-green-200 bg-white p-5 text-lg text-slate-700 shadow-sm">Time saved by automating code smell detection instead of manual code reviews</li>
                 </ul>
             </div>
         </section>
 
-        <section class="bg-gradient-to-br from-indigo-500 via-indigo-600 to-purple-600 py-24 text-center text-white">
+        <section class="bg-gradient-to-br from-green-600 via-green-500 to-yellow-500 py-24 text-center text-white">
             <div class="mx-auto max-w-3xl px-6 lg:px-8">
                 <h2 class="text-3xl font-semibold tracking-tight sm:text-4xl">Ready to start your investigation?</h2>
-                <p class="mt-4 text-lg text-indigo-100">Download the <strong>Code Smell Detective</strong> and uncover the hidden issues in your codebase.</p>
-                <p class="mt-2 text-base text-indigo-100/90">Get started in minutes with our easy-to-use Python package. The detective is ready to work on your case!</p>
-                <a href="https://github.com/code-smell-detective/code-smell-detective/releases" target="_blank" rel="noopener noreferrer" class="mt-8 inline-flex items-center justify-center rounded-xl bg-white px-6 py-3 text-base font-semibold text-indigo-700 shadow-lg shadow-indigo-900/20 transition hover:-translate-y-1 hover:bg-indigo-50">Download Latest Release</a>
+                <p class="mt-4 text-lg text-green-50">Download the <strong>Code Smell Detective</strong> and uncover the hidden issues in your codebase.</p>
+                <p class="mt-2 text-base text-green-50/90">Get started in minutes with our easy-to-use Python package. The detective is ready to work on your case!</p>
+                <a href="https://github.com/code-smell-detective/code-smell-detective/releases" target="_blank" rel="noopener noreferrer" class="mt-8 inline-flex items-center justify-center rounded-xl bg-white px-6 py-3 text-base font-semibold text-green-700 shadow-lg shadow-green-900/20 transition hover:-translate-y-1 hover:bg-green-50">Download Latest Release</a>
             </div>
         </section>
     </main>
@@ -305,7 +310,7 @@
             <div>
                 <p class="text-sm text-slate-300">Open source Python tool</p>
                 <p class="mt-2 text-sm text-slate-300">Available on GitHub</p>
-                <p class="mt-4 text-sm"><a href="https://github.com/code-smell-detective/code-smell-detective" target="_blank" rel="noopener noreferrer" class="text-indigo-300 hover:text-white">View Repository</a></p>
+                <p class="mt-4 text-sm"><a href="https://github.com/code-smell-detective/code-smell-detective" target="_blank" rel="noopener noreferrer" class="text-green-300 hover:text-white">View Repository</a></p>
             </div>
             <div class="flex flex-col gap-3 text-sm text-slate-300">
                 <a href="#services" class="hover:text-white" data-scroll-link>Features</a>
